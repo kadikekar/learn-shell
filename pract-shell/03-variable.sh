@@ -1,0 +1,11 @@
+#!/bin/bash
+
+SCRIPT_START_TIME=$(date +%s)
+SCRIPT_END_TIME=$(date +%s)
+echo "script executed start time $SCRIPT_START_TIME"
+sleep
+echo "script executed end time $SCRIPT_END_TIME"
+
+TOTAL_TIME=$(SCRIPT_START_TIME-SCRIPT_END_TIME)
+
+echo "total time taken to complete script $TOTAL_TIME"
