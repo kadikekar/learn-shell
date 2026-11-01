@@ -13,3 +13,8 @@ validate () {
         echo "$2 installed"
     fi
 }
+
+echo "proceeding"
+dnf install nginx -y
+
+validate $? "nginx installtion"
