@@ -14,7 +14,15 @@ validate () {
     fi
 }
 
+## process success code 0 its $1
+## $2 is the nginx/mysql/git installation
+
 echo "proceeding"
 dnf install nginx -y
 
 validate $? "nginx installtion"
+dnf install mysql -y
+validate $? "mysql installation"
+
+dnf install git -y
+validate $? "git installation"
