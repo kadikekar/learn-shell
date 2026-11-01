@@ -1,8 +1,8 @@
 #!/bin/bash
 
-Enter your Username?
-read username
-Enter you Password?
-read -S password
+echo "Enter your Username?"
+read -s USERNAME
+echo "Enter you Password?"
+read -s PASSWORD
 
-echo "Hi $username, this is your password $password"
+echo "Hi $USERNAME, this is your password $PASSWORD"
