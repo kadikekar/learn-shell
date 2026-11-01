@@ -1,0 +1,5 @@
+var1=10
+var2=20
+var3=sandeep
+echo $var1+$var2""
+ech0 "(($var1+$var2+$var3))"
