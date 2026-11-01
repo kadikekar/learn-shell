@@ -7,7 +7,7 @@ read MARKS
 
 if [ $MARKS -le 33 ]; then
     echo "$NAME your failed"
-    echo "Better luck next time.
+    echo "Better luck next time."
 elif [ $MARKS -le 50 ]; then
     echo "$NAME you got third class"
     echo "Congratulations $NAME"
