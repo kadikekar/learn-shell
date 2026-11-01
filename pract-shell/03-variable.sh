@@ -3,7 +3,7 @@
 SCRIPT_START_TIME=$(date +%s)
 SCRIPT_END_TIME=$(date +%s)
 echo "script executed start time $SCRIPT_START_TIME"
-sleep
+sleep 10
 echo "script executed end time $SCRIPT_END_TIME"
 
 TOTAL_TIME=$(SCRIPT_START_TIME-SCRIPT_END_TIME)
