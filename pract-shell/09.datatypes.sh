@@ -13,4 +13,6 @@ COUNT=COUNT+1
 echo "Count is $COUNT"
 
 NAME="DevOps"
-echo "${NAME}Engneer"
+echo "${NAME} Engneer"
+
+echo "${NAME}" "Engneer"
