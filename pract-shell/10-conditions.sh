@@ -19,6 +19,6 @@ fi
 
 if [ $MARKS -le 100 ]; then
     echo "Congratulations $NAME"
-else 
+elif [ $MARKS -le 33 ]; then
     echo "Better Luck next time $Name"
 fi
