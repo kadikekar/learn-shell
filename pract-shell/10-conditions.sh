@@ -13,12 +13,12 @@ elif [ $MARKS -le 60 ]; then
     echo "$NAME you got second class"
 elif [ $MARKS -le 75 ]; then
     echo "$NAME you got first class"
-elif [ $MARKS -le 100]; then
+elif [ $MARKS -le 100 ]; then
     echo "$NAME you Passed in Destintion"
 fi
 
 if [ $MARKS -lt 100 ]; then
     echo "Congratulations $NAME"
 elif [ $MARKS -le 33 ]; then
-    echo "Better Luck next time $Name"
+    echo "Better Luck next time $NAME"
 fi
