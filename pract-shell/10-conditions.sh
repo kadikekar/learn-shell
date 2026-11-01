@@ -17,7 +17,7 @@ elif [ $MARKS -le 100]; then
     echo "$NAME you Passed in Destintion"
 fi
 
-if [ $MARKS -le 100 ]; then
+if [ $MARKS -lt 100 ]; then
     echo "Congratulations $NAME"
 elif [ $MARKS -le 33 ]; then
     echo "Better Luck next time $Name"
