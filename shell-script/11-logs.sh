@@ -2,7 +2,7 @@
 
 USER_ID=$(id -u)
 logs_folder="/var/log/shell_script"
-log_file=${log_folder}/${0}.log
+logs_file=${logs_folder}/${0}.log
 
 if [  $USER_ID -ne 0 ]; then
     echo "you need sudo previleages to run this command"
