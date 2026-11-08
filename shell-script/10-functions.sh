@@ -18,3 +18,9 @@ echo "proceeding further"
 dnf install nginx -y
 
 validate $? nginx installation
+
+proceeding with further installation
+
+dnf install mysql -y
+
+validate $? mysql installation
