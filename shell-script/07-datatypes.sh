@@ -8,10 +8,10 @@ var4=$(($var1+$var2+$var3))
 echo "$var_sum"
 echo "$var4"
 
-declare i count=5 
-count=count+1
+declare i COUNT=5 
+COUNT=COUNT+1
 
-echo "$count"
+echo "count is:$COUNT"
 
 
 Fruits=("banana", "apple", "orenge", "papaya")
