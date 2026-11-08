@@ -6,7 +6,7 @@ log_file=${logs_folder}/${0}.log
 
 if [ $USER_ID -ne 0 ]; then
     echo "you need sudo previleages to run this command"
-    exit 1
+    # exit 1
 fi
 
 mkdir -p $logs_folder
