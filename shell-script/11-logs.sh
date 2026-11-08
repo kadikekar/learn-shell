@@ -8,7 +8,7 @@ if [  $USER_ID -ne 0 ]; then
     echo "you need sudo previleages to run this command"
 fi
 
-mkdir -p ${log_folder}
+mkdir -p $log_folder
 
 validate () {
     if [ $1 -ne 0 ]; then 
