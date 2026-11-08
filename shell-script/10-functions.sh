@@ -19,7 +19,7 @@ dnf install nginx -y
 
 validate $? nginx installation
 
-proceeding with further installation
+echo "proceeding with further installation"
 
 dnf install mysql -y
 
