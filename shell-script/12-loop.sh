@@ -1,6 +1,6 @@
 #!/bin/bash
 
-for number i {1..100}
+for number in {1..100}
     do
-        echo "$i"
+        echo "$number"
     done
