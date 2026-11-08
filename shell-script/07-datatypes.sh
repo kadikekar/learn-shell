@@ -14,6 +14,6 @@ count=count=1
 echo "$count"
 
 
-Fruits= ("banana", "apple", "orenge", "papaya")
+Fruits=("banana", "apple", "orenge", "papaya")
 echo "all ${Fruits[@]}"
 echo "first ${Fruits[0]}"
