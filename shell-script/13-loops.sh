@@ -13,14 +13,14 @@ mkdir -p $logs_folder
 
 validate() {
     if [ $1 -ne 0 ]; then
-        echo "$2 installation failed"
+        echo "$2 installation failed" | tee -a $log_file
     else
-        echo "$2 installation success"
+        echo "$2 installation success" | tee -a $log_file
     fi
 }
 
-for packages in $@
+for package in $@
     do
-        echo "$packages" is installing
-        dnf install $packages -y &>> $log_file
+        echo "$package" is installing
+        dnf install $package -y &>> $log_file
     done
