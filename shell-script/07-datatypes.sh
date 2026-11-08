@@ -11,7 +11,7 @@ echo "$var4"
 declare i COUNT=5 
 COUNT=COUNT+1
 
-echo "count is:$COUNT"
+echo "count is: $COUNT"
 
 
 Fruits=("banana", "apple", "orenge", "papaya")
