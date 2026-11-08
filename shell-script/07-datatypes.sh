@@ -5,7 +5,12 @@ var3="Sandeep"
 var_sum=$var1+$var2
 var4=$(($var1+$var2+$var3))
 
+declare i count=5 
+count=count=1
 
-Fruits= ["banana", "apple", "orenge", "papaya"]
+echo "$count"
+
+
+Fruits= ("banana", "apple", "orenge", "papaya")
 echo "all ${Fruits[@]}"
 echo "first ${Fruits[0]}"
