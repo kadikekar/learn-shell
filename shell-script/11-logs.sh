@@ -20,7 +20,7 @@ validate () {
 
 START_TIME=$(date +"%d-%m-%Y %H:%M:%S")
 echo "script excution start time is: $START_TIME"
-dnf install nignx -y &>> $log_file
+dnf install nginx -y &>> $log_file
 validate $? "nginx installation"
 
 echo "proceeding further"
