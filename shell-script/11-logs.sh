@@ -20,12 +20,12 @@ validate () {
 
 START_TIME=$(date +"%d-%m-%Y %H:%M:%S")
 echo "script excution start time is: $START_TIME"
-dnf install nginx -y &>> $log_file
+dnf install nginx -y &>> $logs_file
 validate $? "nginx installation"
 
 echo "proceeding further"
 
-dnf install mysql -y &>> $log_file
+dnf install mysql -y &>> $logs_file
 
 validate $? "mysql installation"
 
