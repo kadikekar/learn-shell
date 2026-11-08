@@ -17,4 +17,4 @@ validate() {
 echo "proceeding further"
 dnf install nginx -y
 
-validate() nginx installation
+validate $? nginx installation
