@@ -1,7 +1,7 @@
 #!/bin/bash
 
-START_TIME=$(date +"%d-%m-%Y %H:%M:%S")
-END_TIME=$(date +"%d-%m-%Y %H:%M:%S")
+START_TIME=$("date +%s")
+END_TIME=$("date +%s")
 
 echo "Script started time is: $START_TIME"
 sleep 10
