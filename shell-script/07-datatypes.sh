@@ -9,7 +9,7 @@ echo "$var_sum"
 echo "$var4"
 
 declare i count=5 
-count=count=1
+count=count+1
 
 echo "$count"
 
